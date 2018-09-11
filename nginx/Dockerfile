@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx:1.15.1
 LABEL maintainer "user <user@example.com>"
 
 RUN mkdir -p /var/log/example/nginx/
