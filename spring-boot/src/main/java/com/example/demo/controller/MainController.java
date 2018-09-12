@@ -17,8 +17,8 @@ public class MainController {
         return "mainpage";
     }
 
-    @RequestMapping("/error")
-    public String errorPage(Model model) {
+    @RequestMapping("/error500")
+    public void errorPage(Model model) {
         throw new RuntimeException();
     }
 }
